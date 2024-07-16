@@ -27,7 +27,6 @@ Para avaliar suas habilidades técnicas e conhecimento das boas práticas de des
 - **Frontend:**  React.js com Material UI.
 - **Banco de Dados:** Sistema de gerenciamento de banco de dados relacional utilizado para armazenar dados estruturados de projetos e tarefas.
 - **Controle de Versão:** Git (GitHub): Sistema de controle de versão distribuído para gerenciar o código-fonte do projeto de forma eficiente.
-- **Docker-compose** Utilizado para orquestrar os containers Docker do backend e frontend, garantindo um ambiente de desenvolvimento consistente e isolado.
 - **SuperTest** Biblioteca para testes HTTP integrados com Express.js, garantindo robustez nas APIs.
 
 ##  Funcionalidades Principais
@@ -72,8 +71,8 @@ Permite aos usuários remover tarefas de um projeto, mantendo a lista de tarefas
 1. **Instalação de Dependências:**
     ```bash
     - Clone o repositório: git clone https://github.com/seu-usuario/gerenciador-de-tarefas.git
-    - Acesse o diretório do projeto: cd gerenciador-de-tarefas
-    - Execute o Docker Compose para configurar e iniciar o ambiente:   docker-compose up --build
+    - Acesse o diretório do projeto: cd frontend  execute npm install sweetalert2 && npm install e npm start
+    - Acesse o diretório do projeto: cd server  e execute npm install e npm start   
 
 
 ### Configuração do Backend
