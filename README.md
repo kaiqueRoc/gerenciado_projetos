@@ -89,7 +89,7 @@ Permite aos usuários remover tarefas de um projeto, mantendo a lista de tarefas
 
 2. **Criar Seeders:**
    ```bash  
-   - Execute o seeders para preecnher as tabelas caso queira.
+   - Execute o seeders para preecnher as tabelas.
    - Execute na pasta server:  sequelize db:seed:all
 
 ## Realização de tests
